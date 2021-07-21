@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(255, 143, 143);
 }
 .box{
     display: flex;
@@ -25,7 +26,7 @@
     /* justify-content: center; */
 }
 .links a{
-    font-size: 45px;
+    font-size: 40px;
     color: black;
     padding: 8px 19px;
     margin: 6px;
@@ -35,19 +36,21 @@
 }
 .links a:hover{
     border: 5px solid rgb(0, 0, 0);
+    /* color: rgb(255, 143, 143); */
+    /* background-color: rgb(255, 143, 143); */
 }
 
 .btn{
-    font-size: 24px;
+    font-size: 20px;
     color: black;
     border: 5px solid black;
-    background-color: white;
+    background-color: rgb(255, 143, 143);
     padding: 9px;
     width: 15vw;
     cursor: pointer;
     transition: 0.2s all;
 }
 .btn:hover{
-    color: white;
+    color: rgb(255, 143, 143);
     background-color: black;
 }
