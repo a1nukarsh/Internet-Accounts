@@ -4,6 +4,10 @@
     font-family: 'Ubuntu', sans-serif;
     background-color: rgb(255, 143, 143);
 }
+::selection{
+    color: rgb(255, 143, 143);
+    background-color: black;
+}
 .box{
     display: flex;
     flex-direction: column;
